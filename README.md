@@ -1,1 +1,1 @@
-# ScatterNet
+# ScatterNet-Keras
