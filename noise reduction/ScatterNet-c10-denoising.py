@@ -119,7 +119,6 @@ outputs = Conv2D(3, (1, 1), activation=PReLU())(ob)
 
 model = Model(input_img, outputs)
 
-#binary crossentropy,MSEでの評価用モデル生成
 model1 = Model(input_img,outputs)
 model1.compile(optimizer=model1_om, loss=model1_lf)
 model1.summary()
