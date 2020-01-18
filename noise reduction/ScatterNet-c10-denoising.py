@@ -114,7 +114,8 @@ ub5 = concatenate([ub4, db1])
 ub5 = UpBlock(ub5,8)
 
 ob = concatenate([ub5, rb])
-outputs = Conv2D(3, (1, 1), activation='sigmoid')(ob)
+#outputs = Conv2D(3, (1, 1), activation='sigmoid')(ob)
+outputs = Conv2D(3, (1, 1), activation=PReLU())(ob)
 
 model = Model(input_img, outputs)
 
