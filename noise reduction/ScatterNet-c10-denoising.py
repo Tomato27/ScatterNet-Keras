@@ -152,7 +152,6 @@ print(score2)
 
 #show_imgs
 import matplotlib.pyplot as plt
-#%matplotlib inline
 
 decoded_imgs = model1.predict(x_test)
 
