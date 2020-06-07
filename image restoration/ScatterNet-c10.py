@@ -156,7 +156,7 @@ import matplotlib.pyplot as plt
 
 decoded_imgs = model1.predict(x_test)
 
-# utility function for showing images
+#utility function for showing images
 fig1=plt.figure(figsize=(20, 4))
 for i in range(10):
       ax = plt.subplot(2, 10, i+1)
